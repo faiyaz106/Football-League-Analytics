@@ -4,7 +4,7 @@
 ### Live Dashboard Link: 
 Looker Report: [click here](https://lookerstudio.google.com/embed/reporting/d627f950-b2f4-4faa-ba21-eebc5abf59e7/page/tEnnC)
 
-Tableau Report: [click here](https://public.tableau.com/shared/BRZ83C76R?:display_count=n&:origin=viz_share_link)
+Tableau Report: [click here](https://public.tableau.com/views/PlayersPerformancesDashboard/PlayersPerformances?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 
