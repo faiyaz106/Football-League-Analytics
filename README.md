@@ -13,10 +13,6 @@ Tableau Dashboard: [Click Here](https://public.tableau.com/views/PlayersPerforma
 ### Objective: 
 To build the robust data pipeline for 950+ football leagues to perform the data analysis and predictive modeling
 
-
-
-### Football API Architecture: 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](football_api_architecture.png)
 ### Cloud Service Selection Criterion:
 * Serverless Architecture
 * Easy to Automate 
@@ -24,11 +20,12 @@ To build the robust data pipeline for 950+ football leagues to perform the data 
 * Real-time processing of data 
 * Easy to integrate with Third party softwares
 
-### Data Modeling: 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](table_schema.png)
+
 
 
 ### GCP Implementation: 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](gcp_architecture.png)
+
 1. Compute: Cloud Function  
      - Serverless Architecture 
      - Extracting Fixtures data automatically from Football API (Rapid API)
@@ -46,9 +43,6 @@ To build the robust data pipeline for 950+ football leagues to perform the data 
 
 
 
-2. GCP Architecture:
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](gcp_architecture.png)
-
 
 
 
@@ -60,5 +54,10 @@ To build the robust data pipeline for 950+ football leagues to perform the data 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](Function_Scheduling_Mapping.png)
 
 
+### Football API Architecture: 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](football_api_architecture.png)
 
-### Way Forward: 
+
+### Data Modeling: 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](table_schema.png)
+
