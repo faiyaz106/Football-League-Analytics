@@ -7,28 +7,58 @@ Looker Dashboard: [Click Here](https://lookerstudio.google.com/embed/reporting/d
 Tableau Dashboard: [Click Here](https://public.tableau.com/views/PlayersPerformancesDashboard/PlayersPerformances?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
-### 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](players_performance_dashboard.png)
 
 
+### Objective: 
+To build the robust data pipeline for 950+ football leagues to perform the data analysis and predictive modeling
+
+
+
+### Football API Architecture: 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](football_api_architecture.png)
+### Cloud Service Selection Criterion:
+* Serverless Architecture
+* Easy to Automate 
+* Less Overhead 
+* Real-time processing of data 
+* Easy to integrate with Third party softwares
+
+### Data Modeling: 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](table_schema.png)
+
 
 ### GCP Implementation: 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](final_architecture.png)
+1. Compute: Cloud Function  
+     - Serverless Architecture 
+     - Extracting Fixtures data automatically from Football API (Rapid API)
+     - Cloud Schedular Invoke the cloud functions for fixtures extraction. 
+     - Preprocessing all the incoming raw data file (.json) and convert into tabular data (.parquet) and write into respective preprocessed cloud storage bucket.
+     - Preprocessing cloud functions triggered when any new data arrived in raw data bucket ( Trigger signal sent using"Auditlog") 
+2. Storage: Cloud Storage
+     - Preferred option for storing unstructured data 
+     - Staging the Raw Data and Preprocessed data 
+3. Data Warehousing: BigQuery 
+     - Easy to run SQL query 
+     - Store the Aggregated data 
+4. Visualization: Looker and Tableau
+5. Machine Learning: Vertex AI 
+
+
+
+2. GCP Architecture:
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](gcp_architecture.png)
+
 
 
 
 ### AWS Implementation: 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](image.png)
-
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](Players Performances.png)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tent](aws_architecture.png)
 
 
+### Functions Mapping and Data Updation Policy: 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](Function_Scheduling_Mapping.png)
 
-### Objective: To build the robust data pipeline for Football analytics and predictive analysis
 
-### Cloud Service Selection: 
-    1. Serverless Architecture
-    2. Easy to Automate 
-    3. Less Overhead 
 
-### 
+### Way Forward: 
