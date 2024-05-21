@@ -77,7 +77,7 @@ To develop a robust data pipeline that automatically collect, store, and preproc
 
 #### Live Dashboard Link: 
 
-Tableau Dashboard: [Click Here](https://public.tableau.com/views/PlayersPerformancesDashboard/PlayersPerformances?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+Tableau Dashboard: [Click Here](https://public.tableau.com/app/profile/faiyaz.ahmad/viz/PlayersPerformancesDashboard/Dashboard1)
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](players_performance_dashboard.png)
 
